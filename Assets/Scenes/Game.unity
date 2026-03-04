@@ -14749,7 +14749,7 @@ Transform:
   m_GameObject: {fileID: 367251030}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.92, y: 0.6, z: -10}
+  m_LocalPosition: {x: -5.55, y: 0.44, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19637,7 +19637,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.689765, y: 0.5995275, z: -10}
+  m_LocalPosition: {x: 2.6867266, y: 0.4395494, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21634,7 +21634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &867962435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21878,23 +21878,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6138345090352872790, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6138345090352872790, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6603411103323844544, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6603411103323844544, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6603411103323844544, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8627440602956330943, guid: 82c45bc6b4cd20a46b7f7a3d7d869bde, type: 3}
       propertyPath: m_Pivot.x
@@ -96533,11 +96533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8653962881069379947, guid: 9b54270d103df454caa67bea89ab9b67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.92
+      value: -5.55
       objectReference: {fileID: 0}
     - target: {fileID: 8653962881069379947, guid: 9b54270d103df454caa67bea89ab9b67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 8653962881069379947, guid: 9b54270d103df454caa67bea89ab9b67, type: 3}
       propertyPath: m_LocalPosition.z

@@ -21,16 +21,7 @@ public class PlayerCollition : MonoBehaviour
             gameManager.AddPoin(1);
             //Debug.Log(" + 1 ");
         }       
-        else if(collision.CompareTag("Zone"))
-        {
-            gameManager.GameOver();
-           // Debug.Log("Zone");
-        }
-        else if(collision.CompareTag("Enemy"))
-        {
-            gameManager.GameOver();
-           // Debug.Log("Enemy");
-        } 
+       
         else if(collision.CompareTag("Key"))
         {
             Destroy(collision.gameObject);
@@ -40,11 +31,11 @@ public class PlayerCollition : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-{
+    {
     if (collision.gameObject.CompareTag("Enemy") ||
         collision.gameObject.CompareTag("Zone"))
-    {
-        gameManager.GameOver();
-    }
-}
+        {
+            gameManager.GameOver();
+        }
+}   
 }

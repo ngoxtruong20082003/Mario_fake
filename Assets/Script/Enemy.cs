@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
             if(transform.position.x >= rightBound)
             {
                 movingRight = false;
-                Filp();
+                Flip();
             }
             
         }
@@ -37,12 +37,12 @@ public class Enemy : MonoBehaviour
             if(transform.position.x <= leftBound)
             {
                 movingRight = true;
-                Filp();
+                Flip();
             }        
         }
     }
 
-    void Filp()
+    void Flip()
     {
         Vector3 scaler = transform.localScale;
         scaler.x *= -1;

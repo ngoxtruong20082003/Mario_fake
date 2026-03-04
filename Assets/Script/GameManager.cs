@@ -97,15 +97,6 @@ public class GameManager : MonoBehaviour
         return isGameWin;
     }
 
-    public void Menu()
-    {
-        Time.timeScale = 0;
-        MenuUi.SetActive(true);
-        
-    }
-
-    
-
     public void TogglePause()
     {
         isPaused = !isPaused;
