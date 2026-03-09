@@ -873,7 +873,7 @@ Transform:
   m_GameObject: {fileID: 678649113}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5878625, y: -2.5685887, z: -10}
+  m_LocalPosition: {x: -5.590151, y: -2.5683556, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MINI KNIFE
+  m_text: Mario
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6cdab495aed1ae54487ab6c1b7ec2806, type: 2}
   m_sharedMaterial: {fileID: 4978149190058366613, guid: 6cdab495aed1ae54487ab6c1b7ec2806, type: 2}
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.9
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
